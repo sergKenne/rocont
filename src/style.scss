@@ -23,6 +23,11 @@ body {
   color: $dark;
 }
 
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1024px;
   padding: 0 40px;

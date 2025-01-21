@@ -182,6 +182,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 5;
 
   &__dialog {
     position: relative;
@@ -213,6 +214,9 @@ onMounted(() => {
     top: 32px;
     right: 32px;
     stroke: #707786;
+    @media (max-width: 320px) {
+      top: 18px;
+    }
   }
 
   &__title {

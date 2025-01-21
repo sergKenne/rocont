@@ -111,7 +111,6 @@ const hideSearchForm = () => {
         right: 0;
         left:initial;
         cursor: pointer;
-        z-index: 1;
       }
     }
     &__form-svg {
@@ -197,5 +196,21 @@ const hideSearchForm = () => {
         display: none;
       }
     }
+  }
+
+  input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  input:focus:-moz-placeholder {
+    color: transparent;
+  }
+
+  input:focus::-moz-placeholder {
+    color: transparent;
+  }
+
+  input:focus:-ms-input-placeholder {
+    color: transparent;
   }
 </style>
