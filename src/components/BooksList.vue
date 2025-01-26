@@ -48,6 +48,7 @@
   .books {
     height: calc(100vh - 148px);
     overflow-y: scroll;
+    padding-bottom: 20px;
     @media (max-width: 550px) {
       height: calc(100vh - 128px);
     }
